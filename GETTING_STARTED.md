@@ -1,6 +1,6 @@
-# 🚀 Monty MDM – Erste Schritte
+# 🚀 Erste Schritte – citizen-dev-streamlit-template
 
-Willkommen! Diese Umgebung ist dein Startpunkt für das Monty MDM Tool.  
+Willkommen! Diese Umgebung ist dein Startpunkt für dein eigenes Streamlit-Tool.  
 Du brauchst **keine Programmiererfahrung** – GitHub Copilot hilft dir bei jedem Schritt.
 
 ---
@@ -29,18 +29,18 @@ Kopiere einen dieser Prompts in den Copilot Chat und drücke Enter:
 
 ---
 
-### 📋 Gerät hinzufügen (Formular)
+### 📋 Dateneingabe-Formular hinzufügen
 ```
-Füge der Streamlit-App ein Formular hinzu, mit dem ich ein neues Gerät eintragen kann.
-Das Formular soll folgende Felder haben: Gerätename, Modell, OS, Zugewiesen an, Standort.
-Nach dem Absenden soll das Gerät in der Tabelle erscheinen.
+Füge der Streamlit-App ein Formular hinzu, mit dem ich Einträge erfassen kann.
+Definiere selbst passende Felder (z. B. Name, Kategorie, Status, Datum).
+Nach dem Absenden soll der Eintrag in einer Tabelle erscheinen.
 ```
 
 ---
 
-### 📊 Diagramm: Geräte pro Standort
+### 📊 Diagramm hinzufügen
 ```
-Füge der App ein Balkendiagramm hinzu, das zeigt wie viele Geräte pro Standort vorhanden sind.
+Füge der App ein Balkendiagramm hinzu, das die Einträge nach einer Kategorie gruppiert anzeigt.
 Nutze die eingebauten Streamlit-Chart-Funktionen.
 ```
 
@@ -48,36 +48,43 @@ Nutze die eingebauten Streamlit-Chart-Funktionen.
 
 ### 📤 Export als Excel
 ```
-Füge einen Button hinzu, mit dem ich die aktuelle Geräteliste als Excel-Datei herunterladen kann.
+Füge einen Button hinzu, mit dem ich die aktuelle Datentabelle als Excel-Datei herunterladen kann.
 Nutze pandas und st.download_button.
 ```
 
 ---
 
-### 🔔 E-Mail-Warnung für Offline-Geräte
+### 🔍 Suche und Filter
 ```
-Erkläre mir, wie ich eine automatische E-Mail-Benachrichtigung einrichten kann,
-wenn ein Gerät den Status "Offline" hat. Ich möchte wissen, welche einfachste Lösung
-es dafür in Python gibt.
+Füge der App eine Suchleiste und mindestens einen Filter (z. B. nach Kategorie oder Status) hinzu,
+damit ich die Tabelle schnell durchsuchen kann.
 ```
 
 ---
 
-### 🔗 Echte Daten anbinden
+### 🔗 Daten aus einer Datei laden
 ```
-Ich möchte die Geräteliste nicht mehr manuell in der app.py pflegen, sondern aus einer
-Excel-Datei oder Google Sheet laden. Zeig mir, wie ich das umbaue.
+Ich möchte die Daten nicht mehr fest im Code haben, sondern aus einer Excel- oder CSV-Datei laden.
+Zeig mir, wie ich app.py dafür umbaue und welche Datei ich dafür anlegen muss.
+```
+
+---
+
+### 🎨 App anpassen
+```
+Passe den Titel, das Emoji-Icon und die Beschreibung der App an meinen Anwendungsfall an.
+Mein Tool soll folgendes machen: [hier kurz beschreiben].
 ```
 
 ---
 
 ## Nächste Schritte
 
-Wenn die App so weit ist, dass Marcus sie täglich nutzen kann:
+Wenn die App so weit ist, dass du oder dein Team sie regelmäßig nutzen kann:
 
 1. **Feedback einholen** – Was fehlt noch? Was ist unklar?
-2. **Deployment** – Die App kann kostenlos auf [Streamlit Community Cloud](https://streamlit.io/cloud) deployed werden (kein Azure nötig für den Piloten)
-3. **OLA ausfüllen** – Erst dann wird die App zur offiziellen Techem-Plattform-Umgebung
+2. **Deployment** – Die App kann kostenlos auf [Streamlit Community Cloud](https://streamlit.io/cloud) deployed werden
+3. **Erweiterungen** – Weitere Funktionen mit Copilot ergänzen
 
 ---
 
