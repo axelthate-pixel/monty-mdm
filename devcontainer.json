@@ -21,7 +21,7 @@
     }
   },
 
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "pip install -r requirements.txt --break-system-packages",
 
   "forwardPorts": [8501],
   "portsAttributes": {
