@@ -1,26 +1,38 @@
-# 📱 Monty MDM
+# 🚀 citizen-dev-streamlit-template
 
-> Mobile Device Management für Monty & FSA Testhandys  
-> Pilot-Projekt der **Techem Citizen Developer Plattform**
+> **GitHub Template Repository** für die Techem Citizen Developer Plattform  
+> Starte in Minuten dein eigenes Tool – ohne Programmiererfahrung.
 
 ---
 
-## In einer Minute starten
+## Dieses Template verwenden
 
-1. Klicke oben auf **„Code" → „Codespaces" → „Create codespace on main"**
-2. Warte ~2 Minuten (Umgebung wird automatisch eingerichtet)
-3. Im Terminal: `streamlit run app.py`
-4. Öffne `GETTING_STARTED.md` für die nächsten Schritte
+1. Klicke oben auf **„Use this template" → „Create a new repository"**
+2. Vergib einen Repository-Namen (z. B. `mein-tool`)
+3. Wähle **Private** oder **Public**
+4. Klicke auf **„Create repository"**
+
+Danach öffne das neue Repository und starte eine Codespace-Umgebung:
+
+5. **„Code" → „Codespaces" → „Create codespace on main"**
+6. Warte ~2 Minuten (Umgebung wird automatisch eingerichtet)
+7. Im Terminal: `streamlit run app.py`
+8. Öffne `GETTING_STARTED.md` für die nächsten Schritte
 
 **Keine Installation. Keine Programmiererfahrung nötig.**
 
 ---
 
-## Was dieses Tool macht
+## Was du bekommst
 
-- Übersicht aller Monty & FSA Testhandys (Modell, OS, Status, Standort)
-- Filtern nach Status und Standort
-- Kennzahlen auf einen Blick (aktiv / update nötig / offline)
+| Datei / Ordner | Inhalt |
+|---|---|
+| `app.py` | Minimale Streamlit-App – dein Startpunkt |
+| `requirements.txt` | Python-Abhängigkeiten (Streamlit) |
+| `devcontainer.json` | Vorkonfigurierte VS Code + Codespaces-Umgebung |
+| `.github/dependabot.yml` | Automatische wöchentliche Dependency-Updates |
+| `.github/workflows/` | Auto-Merge für Patch- und Minor-Updates |
+| `GETTING_STARTED.md` | Deutsche Copilot-Prompts für den Einstieg |
 
 ## Tech Stack
 
@@ -29,7 +41,8 @@
 | App-Framework | Python + Streamlit |
 | KI-Assistent | GitHub Copilot |
 | Entwicklungsumgebung | GitHub Codespaces |
+| Automatisierung | GitHub Actions + Dependabot |
 
 ---
 
-*Fachbereich: Technical Mobile Systems · Ansprechpartner: Marcus Lirka*
+*Teil der Techem Citizen Developer Plattform.*

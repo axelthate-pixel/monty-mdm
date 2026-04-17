@@ -1,5 +1,5 @@
 {
-  "name": "Monty MDM – Citizen Developer",
+  "name": "Citizen Developer – Streamlit Template",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
 
   "customizations": {
@@ -26,7 +26,7 @@
   "forwardPorts": [8501],
   "portsAttributes": {
     "8501": {
-      "label": "Monty MDM App",
+      "label": "Streamlit App",
       "onAutoForward": "openBrowser"
     }
   },
